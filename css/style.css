@@ -43,9 +43,6 @@ header {
   clear: both; 
 }
 
-
-
-
  header  h1 {
   text-align: center;
   padding-top: 40px;  
@@ -80,7 +77,8 @@ header nav ul li a {
   text-align: center;
   text-decoration: none;
   letter-spacing: 2px;
-  padding: 30px;  
+  padding: 20px;
+  padding-right: 40px;  
   color: #FF6800; 
   margin-bottom: 20px;
 }
