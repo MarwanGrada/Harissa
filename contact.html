@@ -3,9 +3,9 @@
 <html>
 
 <head>
-    <title>Harissa</title>
-    <link rel="stylesheet" type="text/css" href="rese.css"> 
-    <link rel="stylesheet" href="css/style.css">
+    <title>Business website</title>
+    <!-- <link rel="stylesheet" type="text/css" href="rese.css">  -->
+    <link rel="stylesheet" href="css/contact.css">
       
     <link href='https://fonts.googleapis.com/css?family=Work+Sans:200' rel='stylesheet' type='text/css'>
 </head> 
@@ -19,7 +19,7 @@
  <header>
     <div class="header">
 
-      <a  href="index.html"><img class="logo" src="img/logo.svg"></a> 
+      <a  href=""><img class="logo" src="img/logo.svg"></a> 
       <a  href=""><img class="cart" src="img/cart.svg"></a>  
 
       <h1>Harissa Hot Sauce</h1>
@@ -38,15 +38,36 @@
 
 
  <!-- Middle container -->
+  <div class="wrapper">
 
 
-  <ul class="slider">
-      <li class="slide"><img src="img/a.jpg" alt="Slide 1" /></li>
-      <li class="slide"><img src="img/b.jpg" alt="Slide 2" /></li>
-      <li class="slide"><img src="img/c.jpg" alt="Slide 3" /></li>      
-  </ul> 
 
-  
+      <form class="form-style-4" action="" method="post">
+          <label for="field1">
+            <span>Enter Your Name</span><input type="text" name="field1" required="true" />
+          </label>
+          <label for="field2">
+            <span>Email Address</span><input type="email" name="field2" required="true" />
+          </label>
+          <label for="field3">
+            <span>Short Subject</span><input type="text" name="field3" required="true" />
+          </label>
+          <label for="field4">
+            <span>Message to Us</span><textarea name="field4" onkeyup="adjust_textarea(this)" required="true"></textarea>
+          </label>
+          <label>
+            <span>&nbsp; </span>
+          </label>
+          <button id="button"></button>
+      </form>
+
+ 
+
+
+      </div>
+
+  </div>
+
 
 
   <!-- Footer -->
@@ -70,6 +91,6 @@
 
   
   <script type="text/javascript" src="js/jquery.js"></script>
-  <script src="js/js.js"></script>
+  <script src="js/contact.js"></script>
 </body>
 </html>
